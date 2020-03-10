@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "LoginPageTestSuite">
+    <listeners>
+        <listener class-name="com.freecrm.qa.ExtentReportListener.ExtentReportListener" />
+    </listeners>
+    <test name = "LoginPageTest">
+        <classes>
+            <class name = "com.freecrm.qa.test.LoginPageTest" />
+        </classes>
+    </test>
+    <test name = "HomePageTest">
+        <classes>
+            <class name = "com.freecrm.qa.test.HomePageTest" />
+        </classes>
+    </test>
+</suite>
